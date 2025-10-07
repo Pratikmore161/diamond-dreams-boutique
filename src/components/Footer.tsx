@@ -14,27 +14,27 @@ export function Footer() {
           </div>
           
           <div>
-            <h4 className="text-sm font-semibold mb-4">Shop</h4>
+            <h4 className="text-sm font-semibold mb-4">Collections</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/shop?category=rings" className="text-muted-foreground hover:text-accent transition-colors">
+                <a href="#collection" className="text-muted-foreground hover:text-accent transition-colors">
                   Rings
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/shop?category=necklaces" className="text-muted-foreground hover:text-accent transition-colors">
+                <a href="#collection" className="text-muted-foreground hover:text-accent transition-colors">
                   Necklaces
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/shop?category=earrings" className="text-muted-foreground hover:text-accent transition-colors">
+                <a href="#collection" className="text-muted-foreground hover:text-accent transition-colors">
                   Earrings
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/shop?category=bracelets" className="text-muted-foreground hover:text-accent transition-colors">
+                <a href="#collection" className="text-muted-foreground hover:text-accent transition-colors">
                   Bracelets
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
